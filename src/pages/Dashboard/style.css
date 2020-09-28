@@ -1,0 +1,78 @@
+.dash {
+  height: 100vh;
+}
+
+.dash-container {
+  width: 1024px;
+  max-width: 1300px;
+  margin: 50px auto;
+}
+
+.dash-container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 25px;
+  padding: 25px 0;
+}
+
+.dash-container header .filtro span {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.dash-container header .filtro label {
+  margin-right: 10px;
+}
+
+.dash-container header .taskRegister a {
+  color: #d76aa8;
+  font-weight: bold;
+}
+
+.dash-container .task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 35px;
+  margin: 15px 0;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dash-container .task .task-info h1 {
+  text-transform: uppercase;
+}
+
+.dash-container .task .task-info p {
+  font-size: 18px;
+}
+
+.dash-container .task .task-content {
+  max-width: 500px;
+  height: 135px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 10px;
+  border: 1px solid #d1d1d1;
+  font-size: 14px;
+}
+
+.dash-container .task .buttons button {
+  display: inline-block;
+  margin: 5px 15px 0 0;
+  padding: 10px 7px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #9295aa;
+  cursor: pointer;
+}

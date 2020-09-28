@@ -1,0 +1,61 @@
+.register-task {
+  /* background-color: #eee; */
+  height: 100vh;
+}
+.register-task-container {
+  max-width: 1300px;
+  height: 90vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #000; */
+}
+
+.register-task-container h1 {
+  margin: 0 0 10px;
+}
+
+/* form */
+.register-task-container form {
+  width: 400px;
+  background-color: #fff;
+  padding: 35px;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-task-container form input,
+.register-task-container form textarea {
+  display: block;
+  width: 100%;
+  margin: 5px 0 15px;
+  padding: 15px 10px;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.register-task-container form input:focus {
+  border: 1px solid #111111;
+}
+
+.register-task-container form .btn {
+  width: 100%;
+  display: inline-block;
+  margin: 5px 0 15px;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #6272a4;
+  cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.header {
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.header .logo h1 {
+  font-size: 25px;
+}
+
+.header a {
+  color: #111111;
+}
+
+.header-nav ul li {
+  display: inline-block;
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  margin: 0 10px;
+}
+
+.header-nav ul li:last-child {
+  font-weight: bold;
+}
+
+.header-container {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

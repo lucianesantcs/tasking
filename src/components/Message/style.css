@@ -1,0 +1,16 @@
+.alert-message {
+  display: block;
+  text-align: center;
+  margin: 5px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #6e9d09;
+}

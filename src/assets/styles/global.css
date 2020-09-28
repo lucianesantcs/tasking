@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-family: 'Work Sans', monospace;
+}
+
+body {
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1300px;
+  height: 95vh;
+  margin: 0 auto;
+}
+
+.clearfix::after,
+.clearfix::before {
+  content: '';
+  display: table;
+  clear: both;
+}
