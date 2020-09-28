@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 
-import { addTask } from '../../store/reducers/taskReducer';
-import { showMessage, hideMessage } from '../../store/reducers/messageReducer';
+import { addTask } from '../../store/actions';
+import { showMessage, hideMessage } from '../../store/actions';
 
 import Header from '../../components/Header';
 import Message from '../../components/Message';

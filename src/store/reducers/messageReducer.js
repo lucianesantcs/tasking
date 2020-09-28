@@ -1,4 +1,3 @@
-//reducers
 const INITIAL_STATE = {
   showMessage: false,
 };
@@ -12,17 +11,4 @@ export default (state = INITIAL_STATE, action) => {
     default:
       return state;
   }
-};
-
-//actions
-export const showMessage = () => {
-  return {
-    type: 'SHOW_MESSAGE',
-  };
-};
-
-export const hideMessage = () => {
-  return {
-    type: 'HIDE_MESSAGE',
-  };
 };
